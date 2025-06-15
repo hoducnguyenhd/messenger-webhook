@@ -16,8 +16,7 @@ Sau khi cài đặt, điền vào các thông tin:
 - `VERIFY_TOKEN`: Token xác minh webhook             # Tự đặt mã này và dùng nó để nhập vào mục "Xác minh mã" trên developers.facebook.com
 - `HA_WEBHOOK_URL`: Địa chỉ webhook Home Assistant   # https://<homeassistant.local>:8123/api/webhook/messenger_inbox
 - `HA_URL`: Link mở Home Assistant qua menu          # Link truy cập HA từ bên ngoài mạng: **https**://homeassistant.xxx:8123
-- `TT_URL`: Link web thông tin thời tiết
-- `HA_URL`: "http://homeassistant.local:8123"         # hoặc IP nội bộ: http://172.30.32.1:8123
+- `TT_URL`: Link web thông tin thời tiết tại nơi bạn ở ( gợi ý: https://thoitietedu.tv/)
 - `HA_TOKEN`: "your-long-lived-access-token"          # token lấy từ Home Assistant → Profile
 ## 🔗 Webhook
 
