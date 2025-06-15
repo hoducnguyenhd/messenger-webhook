@@ -1,6 +1,6 @@
 {
-  "name": "Messenger Webhook",
-  "version": "1.6",
+  "name": "Messenger Webhook Add-on",
+  "version": "1.5",
   "slug": "messenger-webhook",
   "description": "Nhan va chuyen tiep tin nhan Facebook den Home Assistant.",
   "arch": ["amd64", "armv7", "aarch64"],
