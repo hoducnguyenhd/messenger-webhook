@@ -10,4 +10,4 @@ COPY . .
 
 RUN chmod +x run.sh
 
-CMD ["node", "app.js"]
+CMD ["./run.sh"]
