@@ -19,12 +19,12 @@
     "SETUP_MENU_ON_START": false
   },
   "schema": {
-    "PAGE_ACCESS_TOKEN": "str",
-    "VERIFY_TOKEN": "str",
-    "HA_WEBHOOK_URL": "str",
+    "PAGE_ACCESS_TOKEN": "password",
+    "VERIFY_TOKEN": "password",
+    "HA_WEBHOOK_URL": "password",
     "HA_URL": "str",
     "TT_URL": "str",
-    "HA_TOKEN": "str",
+    "HA_TOKEN": "password",
     "SETUP_MENU_ON_START": "bool"
   },
   "required": [ 
