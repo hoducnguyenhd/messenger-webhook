@@ -1,6 +1,6 @@
 
 {
-  "name": "messenger-webhook-addon",
+  "name": "messenger-webhook",
   "version": "1.3.0",
   "description": "Facebook Messenger Webhook to Home Assistant",
   "main": "app.js",
