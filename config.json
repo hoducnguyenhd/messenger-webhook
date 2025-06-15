@@ -2,7 +2,7 @@
   "name": "Messenger Webhook",
   "version": "1.6",
   "slug": "messenger-webhook",
-  "description": "Nhận và chuyển tiếp tin nhắn Facebook đến Home Assistant.",
+  "description": "Nhan va chuyen tiep tin nhan Facebook den Home Assistant.",
   "arch": ["amd64", "armv7", "aarch64"],
   "startup": "application",
   "boot": "auto",
