@@ -27,7 +27,7 @@
     "HA_TOKEN": "str",
     "SETUP_MENU_ON_START": "bool"
   },
-  "required": [ // <-- Thêm mảng "required" ở đây
+  "required": [ 
     "PAGE_ACCESS_TOKEN",
     "VERIFY_TOKEN",
     "HA_WEBHOOK_URL",
