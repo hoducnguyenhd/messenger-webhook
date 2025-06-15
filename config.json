@@ -1,4 +1,4 @@
-{
+ {
   "name": "Messenger Webhook Add-on",
   "version": "1.5",
   "slug": "messenger-webhook",
@@ -19,12 +19,18 @@
     "SETUP_MENU_ON_START": false
   },
   "schema": {
-    "PAGE_ACCESS_TOKEN": "str?",
-    "VERIFY_TOKEN": "str?",
-    "HA_WEBHOOK_URL": "str?",
+    "PAGE_ACCESS_TOKEN": "str",
+    "VERIFY_TOKEN": "str",
+    "HA_WEBHOOK_URL": "str",
     "HA_URL": "str",
     "TT_URL": "str",
-    "HA_TOKEN": "str?",
+    "HA_TOKEN": "str",
     "SETUP_MENU_ON_START": "bool"
-  }
+  },
+  "required": [ // <-- Thêm mảng "required" ở đây
+    "PAGE_ACCESS_TOKEN",
+    "VERIFY_TOKEN",
+    "HA_WEBHOOK_URL",
+    "HA_TOKEN"
+  ]
 }
