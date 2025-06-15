@@ -2,7 +2,6 @@
   "name": "Messenger Webhook Add-on",
   "version": "1.5",
   "slug": "messenger-webhook",
-  "description": "Nhận & chuyển tiếp tin nhắn Facebook đến Home Assistant.",
   "arch": ["amd64", "armv7", "aarch64"],
   "startup": "application",
   "boot": "auto",
@@ -19,34 +18,12 @@
     "SETUP_MENU_ON_START": false
   },
   "schema": {
-    "PAGE_ACCESS_TOKEN": {
-      "type": "str",
-      "description": "Facebook Page Access Token (bắt buộc)"
-    },
-    "VERIFY_TOKEN": {
-      "type": "str",
-      "description": "Mã xác minh webhook với Facebook (bắt buộc)"
-    },
-    "HA_WEBHOOK_URL": {
-      "type": "str",
-      "description": "URL webhook của Home Assistant (nếu sử dụng kiểu webhook)"
-    },
-    "HA_URL": {
-      "type": "str",
-      "description": "Địa chỉ Home Assistant (dùng cho gửi sự kiện)"
-    },
-    "TT_URL": {
-      "type": "str",
-      "description": "Đường dẫn xem thời tiết (hiển thị trong menu Messenger)"
-    },
-    "HA_TOKEN": {
-      "type": "str",
-      "description": "Long-lived token để gửi sự kiện đến Home Assistant"
-    },
-    "SETUP_MENU_ON_START": {
-      "type": "bool",
-      "description": "Thiết lập Persistent Menu Facebook khi Add-on khởi động (nên bật 1 lần duy nhất)"
-    }
-  },
-  "description_long": "Dán các token (PAGE_ACCESS_TOKEN, HA_TOKEN) vào một dòng, không xuống dòng, không thêm >-.\nVí dụ: \"EAAX...\". Trường TT_URL có thể trỏ tới trang xem thời tiết của bạn."
+    "PAGE_ACCESS_TOKEN": "str",
+    "VERIFY_TOKEN": "str",
+    "HA_WEBHOOK_URL": "str",
+    "HA_URL": "str",
+    "TT_URL": "str",
+    "HA_TOKEN": "str",
+    "SETUP_MENU_ON_START": "bool"
+  }
 }
